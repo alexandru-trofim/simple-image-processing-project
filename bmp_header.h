@@ -4,6 +4,14 @@
 */
 #pragma pack(1)
 
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+
+
+#define BUFFER_SIZE 256 
+
+
 typedef struct 
 {
     unsigned char  fileMarker1; /* 'B' */
