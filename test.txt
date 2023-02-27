@@ -1,0 +1,5 @@
+edit blank.bmp
+set line_width 5
+set draw_color 0 0 0
+draw line 0 0 200 200
+save aaaa.bmp
