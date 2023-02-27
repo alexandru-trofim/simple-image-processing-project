@@ -16,12 +16,7 @@ int main() {
     stime = (unsigned) ltime/2;
     srand(stime);
 
-    for (int i = 0; i <= 5; i++) {
-        random_command();
-        printf("\n");
-    }
     while (quit_parser) {
-        
 
         scanf("%s", command);
 
