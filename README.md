@@ -1,9 +1,11 @@
 # Project Overiview
+
 This project is an implementation of a bmp image editor with a few commands.
 The editor is implemented as an interactive console where it receives commands
 while quit command is not entered.
 
-##Interactive console commands
+## Interactive console commands
+
 save <path>
 edit <path>
 insert <path> y x
@@ -17,6 +19,13 @@ quit
 
 
 # Build 
+
 You can run this project on linux or macOS. There is a Makefile with two rules:
 build - generates an executable named build
 clean - deletes all the object files and the executable
+
+To build the project and to run a test runt this command
+```
+make build
+./build < ./tests/testname
+```
