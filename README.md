@@ -6,16 +6,16 @@ while quit command is not entered.
 
 ## Interactive console commands
 
-save <path>
-edit <path>
-insert <path> y x
-set draw_color R G B
-set line_width x
-draw line y1 x1 y2 x2
-draw circle y x r
-quit
+save \<path\> <br />
+edit \<path\> <br />
+insert \<\path\> y x<br />
+set draw_color R G B<br />
+set line_width x<br />
+draw line y1 x1 y2 x2<br />
+draw circle y x r<br />
+quit<br />
 
-<path> - path to bmp image
+\<path\> - path to bmp image
 
 
 # Build 
