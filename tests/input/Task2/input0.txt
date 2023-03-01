@@ -1,4 +1,0 @@
-edit images/christmas.bmp
-insert images/kalm.bmp 0 0
-save output/Task2/output0.bmp
-quit

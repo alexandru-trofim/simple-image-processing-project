@@ -1,0 +1,16 @@
+edit ./images/blank.bmp
+set draw_color 255 0 255 
+set line_width 10 
+draw circle 50 50 30
+set draw_color 255 153 51 
+set line_width 15 
+draw circle 120 90 80
+set draw_color 153 0 0 
+set line_width 3 
+draw circle 300 200 30
+set draw_color 153 90 0 
+set line_width 20 
+draw circle 300 200 190 
+save test_circles_out.bmp
+quit
+

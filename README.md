@@ -21,11 +21,13 @@ quit<br />
 # Build 
 
 You can run this project on linux or macOS. There is a Makefile with two rules:
-build - generates an executable named build
-clean - deletes all the object files and the executable
+build - generates an executable named build<br />
+clean - deletes all the object files and the executable<br />
 
-To build the project and to run a test runt this command
+To build the project and to run a test run this command:
+
 ```
 make build
 ./build < ./tests/testname
 ```
+When running a test the image will be created in current directory.

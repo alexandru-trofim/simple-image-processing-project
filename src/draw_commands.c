@@ -74,16 +74,12 @@ int32_t coord_min = 0, coord_max = 0;
          
         //i will be our y coordinate 
         if (x2 != x1 && y2 != y1) { // the equation line case
-            printf("this one \n"); 
             i = (j-y1) * (x2-x1) / (y2-y1) + x1;
         } else if(x2 == x1) { // the y const case
             i = x1;
         } else if(y1 == y2) { // the x const case
-            printf("another one %d    ", y1);
             i = (float)y1;
-            printf(" i: %f", i);
         }
-        printf("j: %d, i: %f\n", j, i);
         // we calc the left upper corner then make a square that has the brush 
         // width from that point. We check if the pixel we want to colour is 
         //not out of bounds
@@ -112,8 +108,6 @@ void draw_circle(bmp_image *image, brush my_brush, int32_t y, int32_t x, int32_t
         float i1 = (2*x + sqrt(delta))/2;
         float i2 = (2*x - sqrt(delta))/2;
 
-        printf("j: %d i1: %d i2: %d\n", j, (int)i1, (int)i2);
-        
         if (j >= 0 && i2 >= 0 && i1 >= 0 && j <= image->infoheader.width
             && i1 <= image->infoheader.height && i2 <= image->infoheader.height) {
 

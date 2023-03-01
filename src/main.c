@@ -24,14 +24,12 @@ int main() {
 
             //read the path of the image 
             scanf("%s", command);
-            printf("%s edit zaibisi \n", command);
             edit(command, edit_image);
 
         } else if (!strcmp(command, "save")) {
 
             //read the path of the image that'll be created 
             scanf("%s", command);
-            printf("%s save zaibisi \n", command);
             save(command, edit_image);
 
         } else if (!strcmp(command, "quit")) {
